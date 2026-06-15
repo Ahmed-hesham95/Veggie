@@ -3,14 +3,14 @@ import { assets, features } from "../assets/assets";
 
 const BottomBanner = () => {
   return (
-    <div className="relative mt-24">
+    <div className="relative mt-24 w-full"> 
       <img
         className="w-full hidden md:block"
         src={assets.bottom_banner_image}
         alt="banner"
       />
       <img
-        className="w-full hidden md:hidden"
+        className="w-full block md:hidden"
         src={assets.bottom_banner_image_sm}
         alt="banner"
       />
